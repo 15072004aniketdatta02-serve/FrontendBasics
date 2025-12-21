@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { useNavigate } from 'react-router'
 import apiClient from '../../service/apiClient'
+import { useNavigate } from 'react-router-dom'
 
 const Signup = () => {
   const [name, setName] = useState("")
@@ -19,13 +19,13 @@ const Signup = () => {
     //get response from backend
     //Take action based on response
     try {
-        console.log(`Trying to do api call with data: Name:${name},Email:${email},Password:${password}`);
-        const response = await apiClient.signup(name,email,password);
-        console.log("Signup response:",response);
-        if(response.success){
+        console.log(`Trying to do api call with data: Name:${name},Email:${email}`);
+        const data = await apiClient.signup(name, email, password);
+        console.log("Signup response:", data);
+        if (data && data.success) {
           navigate("/login");
-        }else{
-            setError(response.message ?? "Signup failed");
+        } else {
+            setError((data && data.message) || "Signup failed");
         }
     }
     catch (err) {

@@ -10,6 +10,9 @@ ReactNextJsBasics:
 6. React + react-DOM -> Browser
 7. React + React-Native->iOS and Android
 8. React + React-VR  -> VR hardware
+9.  Browser blocks the CORS not the Backend
+10. CORS help isolation.
+11. Session Hijacking.
 
 
 
