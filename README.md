@@ -118,6 +118,5 @@ Common bundler features:
 - **Hot Module Replacement (HMR)**: Updates modules in browser without full reload
 
 Bundlers are essential in modern web development to optimize performance, manage dependencies, and enable development workflows.
-
-
-
+- Syntax:
+       `npm i vite @vitejs/plugin-react`
