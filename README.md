@@ -89,4 +89,4 @@ and meta are children of head, div and other elements are children of body.
 In functional components, props are accessed as a function parameter object, allowing you to destructure specific values or access them via dot notation (e.g., `props.name`). Props are immutable—attempting to modify them directly will result in errors.
 
 
-35. 
+35. Babel is required for translating  jsx to vanilla javascript.
