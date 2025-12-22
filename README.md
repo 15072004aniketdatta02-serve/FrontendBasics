@@ -90,3 +90,5 @@ In functional components, props are accessed as a function parameter object, all
 
 
 35. Babel is required for translating  jsx to vanilla javascript.
+
+
