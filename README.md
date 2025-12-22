@@ -117,6 +117,7 @@ Common bundler features:
 - **Asset Optimization**: Compresses images, fonts, and other resources
 - **Hot Module Replacement (HMR)**: Updates modules in browser without full reload
 
-Bundlers are essential in modern web development to optimize performance, manage dependencies, and enable development workflows.
+37. Bundlers are essential in modern web development to optimize performance, manage dependencies, and enable development workflows.
 - Syntax:
        `npm i vite @vitejs/plugin-react`
+38. hooks in react are functions returning numbers strings object, booleans ,Arrays[]etc.
