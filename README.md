@@ -1,6 +1,9 @@
 # FrontendBasics
 ReactNextJsBasics:
+0. React with CDN: 
+[React with CDN - Basic Setup Guide](https://react.dev/learn/add-react-to-a-website)
 
+A simple way to use React without build tools by including React libraries via CDN links in your HTML file, then writing JSX with Babel transpilation.
 
 1. CORS always get resolved in backend.
 2. CORS origin should mmatch exact frontend URL exactly.
@@ -90,5 +93,31 @@ In functional components, props are accessed as a function parameter object, all
 
 
 35. Babel is required for translating  jsx to vanilla javascript.
+
+36. **Render Function in ReactDOM**
+
+The `render()` function is a core method in ReactDOM that is responsible for mounting a React component to the DOM. It takes a React element and renders it into a specified DOM container.
+
+**Bundlers**: A bundler is a tool that takes your source code (JavaScript, CSS, images, etc.) and combines them into optimized output files for production. Bundlers analyze dependencies, resolve imports/exports, and package everything into one or more bundle files that browsers can load efficiently.
+
+Key bundlers include:
+- **Webpack**: Highly configurable, supports code splitting, loaders, and plugins
+- **Vite**: Fast modern bundler with instant server start and optimized builds
+- **Esbuild**: Extremely fast JavaScript bundler written in Go
+- **Parcel**: Zero-config bundler with automatic optimization
+- **Rollup**: Focuses on producing lean, efficient bundles (ideal for libraries)
+- **Turbopack**: Next-gen bundler built with Rust for exceptional speed
+
+Common bundler features:
+- **Module Resolution**: Finds and connects dependencies
+- **Code Splitting**: Breaks code into smaller chunks loaded on demand
+- **Tree Shaking**: Removes unused code from bundles
+- **Minification**: Reduces file size by removing whitespace and shortening names
+- **Source Maps**: Maps minified code back to original source for debugging
+- **Asset Optimization**: Compresses images, fonts, and other resources
+- **Hot Module Replacement (HMR)**: Updates modules in browser without full reload
+
+Bundlers are essential in modern web development to optimize performance, manage dependencies, and enable development workflows.
+
 
 
