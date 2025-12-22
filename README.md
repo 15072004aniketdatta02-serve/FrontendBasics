@@ -79,3 +79,14 @@ and meta are children of head, div and other elements are children of body.
 
 33. **React-Native**: React-Native is a framework for building native mobile applications (iOS and Android) using React and JavaScript. Instead of compiling to web assets, React-Native compiles to native code, allowing developers to write once and deploy to multiple platforms. It uses native components rather than web components, providing better performance and a more native feel. React-Native shares the same component-based architecture and state management patterns as React, making it easy for web developers to transition to mobile development. Popular apps like Facebook, Instagram, Uber, and Airbnb use React-Native in production.
 
+34. **React props**: React props are short for "properties" and serve as a mechanism for passing data from parent components to child components. They are read-only and allow you to create reusable, dynamic components by providing different data to the same component structure. Key purposes include:
+
+- **Data Flow**: Enable unidirectional data flow from parent to child components
+- **Reusability**: Allow components to be flexible and work with different data
+- **Configuration**: Let you customize component behavior without modifying the component code
+- **Separation of Concerns**: Keep components focused on presentation while parents handle logic
+
+In functional components, props are accessed as a function parameter object, allowing you to destructure specific values or access them via dot notation (e.g., `props.name`). Props are immutable—attempting to modify them directly will result in errors.
+
+
+35. 
