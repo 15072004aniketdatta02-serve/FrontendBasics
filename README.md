@@ -121,3 +121,7 @@ Common bundler features:
 - Syntax:
        `npm i vite @vitejs/plugin-react`
 38. hooks in react are functions returning numbers strings object, booleans ,Arrays[]etc.
+
+39. useState is a function returning an array of value and function.
+40. useState(value)=[value,setValue] here value=value , setValue is the function which will help us change the value.
+
