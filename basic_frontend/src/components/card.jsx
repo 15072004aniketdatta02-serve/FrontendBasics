@@ -3,7 +3,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 const Card = ({ title, content, img }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
-  const handleFlip = () => {
+const handleFlip = () => {
     setIsFlipped(!isFlipped);
   };
 
